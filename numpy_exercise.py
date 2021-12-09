@@ -79,7 +79,7 @@ print()
 ## Step 9: Register #3 had an error and recorded it's fourth sale ($200.14) incorrectly. The sale should have been $20.14. Update the array to correct this error.
 #           Print the array before and after the update to see the change.
 print("-----------------------------------------------   STEP NINE  -----------------------------------------------")
-
+print(salesArray)
 register3_update = salesArray[2][3] = 20.14
 print(salesArray)
 print()
